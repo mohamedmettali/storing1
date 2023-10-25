@@ -1,0 +1,26 @@
+PROCEDURE insert(VAR A: array_of INTEGER[], v :integer)
+VAR
+    i: INTEGER;
+BEGIN
+i:=A.lengh+1;
+   WHILE (T[i-1]> v) DO
+   T[i]:= T[i-1]
+   i:=i-1
+END_WHILE
+T[i]:=v
+END
+ALGORITHM insert_element
+VAR
+  v,m : INTEGER
+  T:array_of INTEGER[]
+BEGIN
+    T[1,2,3,7,8]
+
+write ("donne element à inserer")
+read(v)
+inseret(T,v)
+m:=T.lengh
+FOR i FROM 0 TO m DO
+    write (T[i])
+END_FOR
+END
